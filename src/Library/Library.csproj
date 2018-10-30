@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net4.5;netstandard2.0</TargetFrameworks>
+    <RootNamespace>OpenTracing.Contrib.Composite</RootNamespace>
+    <AssemblyName>OpenTracing.Contrib.Composite</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenTracing" Version="0.12.0" />
+    <PackageReference Include="JetBrains.Annotations" Version="11.1.0">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="OpenTracing.Contrib.StronglyTyped" Version="0.2.0" />
+  </ItemGroup>
+
+</Project>
